@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap");
+:root {
+  --bg-primary: #242424;
+  --primary-red: red;
+  --primary-yellow: yellow;
+  --primary-green: green;
+  --section-margin: 50px;
+}
+
+body {
+  background-color: var(--bg-primary);
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 8px 20px;
+  color: white;
+  margin: auto;
+  transition: 300ms;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+select {
+  background-color: white;
+  color: black;
+  padding: 10px 0px;
+  width: 25vw;
+  border-radius: 20px;
+}
+
+section {
+  margin: var(--section-margin) 0;
+}
+
+.unhidden-form {
+  display: inline-block !important;
+}
+
+.hidden-form {
+  display: none;
+}
+
+.top-section {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-form input.search-param {
+  width: 50vw;
+}
+
+div.title {
+  color: white;
+}
+
+.add-form input.add-word {
+  margin-right: 15px;
+  width: 300px;
+  background-color: white;
+}
+
+.add-form input.add-meaning {
+  margin-right: 15px;
+  width: 500px;
+}
+
+.add-form select.add-type {
+  margin-right: 15px;
+  width: 150px;
+}
+
+.add-form textarea {
+  width: 1000px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+.metrics {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 100px;
+  right: 0;
+}
+
+.metrics .metric {
+  margin: 20px 0;
+  display: inline-block;
+  margin: 2px0 20px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.metrics .m1-TW {
+  background-color: var(--primary-yellow);
+}
+
+.metrics .m2-WAT {
+  background-color: var(--primary-red);
+}
+
+.metrics .m3-AWApD {
+  background-color: var(--primary-green);
+}
+
+.groups {
+  color: white;
+  margin: var(--section-margin) 0;
+}
+
+.groups .group-title {
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  padding: 8px 20px;
+}
+
+.vocab {
+  margin: var(--section-margin) 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.vocab .vocab-list {
+  background-color: #ddd;
+  margin: 0;
+  border-radius: 10px;
+  padding: 10px 40px;
+}
+
+.vocab .vocab-list .vocab-item {
+  background-color: white;
+  padding: 1px;
+  border-radius: 15px;
+  margin-bottom: 8px;
+}
+
+.vocab .vocab-list div {
+  margin-bottom: 0px;
+}
+
+.vocab .vocab-list ul.data-rw {
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vocab .vocab-list ul.data-rw .data-sn {
+  width: 5%;
+}
+
+.vocab .vocab-list ul.data-rw .data-word {
+  width: 20%;
+}
+
+.vocab .vocab-list ul.data-rw .data-meaning {
+  width: 40%;
+}
+
+.vocab .vocab-list ul.data-rw .data-type {
+  width: 10%;
+}
+
+.vocab .vocab-list ul.data-rw .data-edit {
+  width: 20%;
+}
+
+.vocab .vocab-list ul.data-details {
+  margin-top: -30px;
+}
+
+.vocab .vocab-list ul.data-details li {
+  margin: 0 5% 2% 5%;
+}
+
+.vocab .vocab-list .edit-word {
+  margin-left: 5%;
+  width: 20%;
+  margin-right: 25px;
+}
+
+.vocab .vocab-list .edit-meaning {
+  width: 40%;
+  margin-right: 25px;
+}
+
+.vocab .vocab-list .edit-type {
+  width: 10%;
+}
+
+.vocab .vocab-list .edit-details {
+  margin: 1% 5% 0 5%;
+  width: 50%;
+}
+/*# sourceMappingURL=App.css.map */
